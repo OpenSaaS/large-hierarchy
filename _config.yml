@@ -2,4 +2,3 @@ name: OpenSaaS Visualisations Demo
 markdown: redcarpet
 pygments: true
 baseurl: "/large-hierarchy"
-url: "http://opensaas.github.io/large-hierarchy/"
