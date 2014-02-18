@@ -16,7 +16,11 @@
     <!-- Custom styles for this template -->
     <link href="{{ site.baseurl }}/css/blog.css" rel="stylesheet">
 
-    <script src="{{ site.baseurl }}/js/d3.v3.js"></script>
+<!--[if lte IE 8]><script src="{{ site.baseurl }}/js/r2d3.js" charset="utf-8"></script><![endif]-->
+    <!--[if gte IE 9]><!-->
+    <script src="{{ site.baseurl }}/js/d3.v3.min.js"></script>
+    <!--<![endif]-->
+
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
