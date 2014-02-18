@@ -45,7 +45,7 @@ var generateOrganigram = function(maxNbrOfEmployees) {
 
 
 if (require.main === module) {
-    var organigram = generateOrganigram(20000);
+    var organigram = generateOrganigram(2000);
     console.log(JSON.stringify(organigram));
     console.log(nbrOfEmployees + ' in tha house')
 }
